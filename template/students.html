@@ -1,0 +1,10 @@
+<h1>Students</h1>
+<!--<ul>
+  {$list}
+</ul>-->
+<ul>
+  {foreach from = $students
+           item = student}
+    <li>{$student.name}, {$student.age}</li>
+  {/foreach}
+</ul>
