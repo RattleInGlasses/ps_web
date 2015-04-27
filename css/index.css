@@ -143,50 +143,65 @@ h1
     text-decoration: underline;
 }
 
-footer
+.footer
 {
-    background: linear-gradient(to bottom, #eee 0%, #fff 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background-image: linear-gradient(to bottom, #EEE 0%, #FFF 100%);
+    background-color: #EEE;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: scroll;
+    
     border-top: 2px solid #CCC;
     clear: both;
     display: block;
     font-size: 0.9em;
     padding: 0 15px 10px;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    bottom: 20px;
 }
 
-footer section
+.footer section, .section
 {
     float: left;
     margin: 15px 0;
     width: 190px;
 }
 
-footer h4
+.section2
+{
+    float: left;
+    margin: 15px 0;
+    width: 190px;
+}
+
+.footer h4
 {
     font-size: 1em;
     margin: 0;
 }
 
-footer section p
+.footer section p, .footer .section p
 {
     margin: 3px 0 4px 15px;
 }
 
-footer a, footer a:visited 
+.footer a, .footer a:visited 
 {
     color: #666;
 }
 
-footer p
+.footer p
 {
     margin: 1em 0;
 }
 
 .hosting
 {
-    background: url("/images/dh.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background-image: url("/images/dh.png");
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-attachment: scroll;
+    
     min-height: 36px;
     padding-left: 75px;
 }
@@ -196,19 +211,19 @@ footer p
     clear: left;
 }
 
-aside
+.side_menu
 {
     float: left;
     background-color: #4B4A45;
     width: 210px;
 }
 
-aside .block
+.side_menu .block
 {
     margin: 10px 0 15px;
 }
 
-aside .block_content
+.side_menu .block_content
 {
     outline: medium none;
     overflow: hidden;
@@ -216,7 +231,7 @@ aside .block_content
     width: 210px;
 }
 
-aside .menu_html_tags
+.side_menu .menu_html_tags
 {
     height: 348px;
     width: 184px;
@@ -227,7 +242,7 @@ aside .menu_html_tags
 {
     background: none repeat scroll 0 0 #FFF;
     border: 1px solid #666;
-    width: 198px;
+    width: 200px;
     margin-left: 5px;
 }
 
@@ -248,7 +263,7 @@ aside .menu_html_tags
     float: left;
 }
 
-aside .block_title
+.side_menu .block_title
 {
     background: none repeat scroll 0 0 #dad7c5;
     color: rgba(75, 74, 69, 0.8);
@@ -260,30 +275,38 @@ aside .block_title
     text-shadow: 1px 2px 3px #dad7c5, 0 0 0 #000, 1px 2px 3px #dad7c5;
 }
 
-aside .menu
+.side_menu .menu
 {
     font-size: 14px;
     margin: 0;
     padding: 0 0 0.25em 20px;
 }
 
-aside .leaf
+.side_menu .leaf
 {
-    background: url("/images/bullet.png") no-repeat scroll 0 6px rgba(0, 0, 0, 0);
+    background-image: url("/images/bullet.png");
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+    background-attachment: scroll;
     list-style: outside none none;
     margin-left: -10px;
     padding: 0 0 0 15px;
 }
 
-aside .collapsed
+.side_menu .collapsed
 {
-    background: url("/images/bullet2.png") no-repeat scroll 0 6px rgba(0, 0, 0, 0);
+    background-image: url("/images/bullet2.png");
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+    background-attachment: scroll; 
     list-style: outside none none;
     margin-left: -10px;
     padding: 0 5px 0 15px;
 }
 
-aside a
+.side_menu a
 {
     color: #eedfac;
     display: block;
@@ -292,7 +315,7 @@ aside a
     text-decoration: none;
 }
 
-aside .menu_css
+.side_menu .menu_css
 {
     overflow: hidden;
     padding: 0px 5px;
