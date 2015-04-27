@@ -1,4 +1,25 @@
-      <footer>
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-27 18:30:08
+         compiled from ".\template\footer.html" */ ?>
+<?php /*%%SmartyHeaderCode:4173553532e0f04184-09260007%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '7daf392429dd42d40061d0a8115e186a6a527723' => 
+    array (
+      0 => '.\\template\\footer.html',
+      1 => 1430152140,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '4173553532e0f04184-09260007',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_553532e0f085d9_33218127',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_553532e0f085d9_33218127')) {function content_553532e0f085d9_33218127($_smarty_tpl) {?>      <footer>
         <section>
           <h4>О сайте</h4>
           <p>
@@ -90,4 +111,4 @@
       </footer>
     </div>
   </body>
-</html>
+</html><?php }} ?>

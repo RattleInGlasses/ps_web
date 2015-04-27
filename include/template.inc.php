@@ -28,8 +28,9 @@
     function BuildPage($template, $vars)
     {
         $header = GetView('header.html', $vars);
+        $sideMenu = GetView('side_menu.html', $vars);
         $content = GetView($template, $vars);
         $footer = GetView('footer.html', $vars);
         
-        return $header . $content . $footer;
+        return $header . $sideMenu . $content . $footer;
     }
