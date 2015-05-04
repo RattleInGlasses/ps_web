@@ -1,8 +1,7 @@
 .side_menu
 {
-    /*position: absolute;
-    left: 0;*/
-    float: left;
+    position: absolute;
+    left: 0;
     background-color: #4B4A45;
     width: 210px;
 }
