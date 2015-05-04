@@ -1,0 +1,114 @@
+.header
+{
+    background-color: #4B4A45;
+}
+
+.logo
+{
+    margin: 0 16px 0 10px;
+    float: left;
+}
+
+.main_menu
+{
+    list-style: outside none none;
+    float: left;
+}
+
+.main_menu li
+{
+    display: inline-block;
+    height: 66px;
+    min-width: 80px;
+    text-align: center;
+    text-align: center;
+}
+
+.show
+{
+    background-color: #EEDFAC;
+}
+
+.hide
+{
+    background-color: #F3EDDF;
+}
+
+.main_menu a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.icon
+{
+    background-image: url("/images/icon-menu.png");
+    display: inline-block;
+    height: 32px;
+    margin-top: 7px;
+    width: 32px;
+}
+
+.icon_main
+{
+    background-position: -96px 0;
+}
+
+.icon_css
+{
+    background-position: -32px 0;
+}
+
+.icon_site
+{
+    background-position: -64px 0;
+}
+
+.main_search
+{
+    float: right;
+    margin: 20px 30px 0 0;
+    padding-top: 1px;
+    background-color: #FFF;
+}
+
+.search_text
+{
+    padding: 2px 2px 1px 2px;
+    width: 200px;
+    float: left;
+}
+
+.search_image
+{
+    margin: 2px 2px 2px 0;
+    opacity: 0.5;
+    float: left;
+}
+
+.title ul
+{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.title li
+{
+    display: inline-block;
+    margin-left: 5px;
+    padding: 5px 0;
+}
+
+.title a
+{
+    color: #1d71b8;
+    display: inline-block;
+    padding: 2px 7px;
+    text-decoration: none;
+}
+
+.title a:hover
+{
+    text-decoration: underline;
+}

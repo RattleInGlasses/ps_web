@@ -1,0 +1,60 @@
+.footer
+{
+    background-image: linear-gradient(to bottom, #EEE 0%, #FFF 100%);
+    background-color: #EEE;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: scroll;
+    
+    border-top: 2px solid #CCC;
+    display: block;
+    font-size: 0.9em;
+    padding: 0 15px 10px;
+    
+    height: 250px;
+}
+
+.footer section, .section
+{
+    float: left;
+    margin: 15px 0;
+    width: 190px;
+}
+
+.footer h4
+{
+    font-size: 1em;
+    margin: 0;
+}
+
+.footer section p, .footer .section p
+{
+    margin: 3px 0 4px 15px;
+}
+
+.footer a, .footer a:visited 
+{
+    color: #666;
+}
+
+.footer p
+{
+    margin: 1em 0;
+}
+
+.hosting
+{
+    background-image: url("/images/dh.png");
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-attachment: scroll;
+    
+    min-height: 36px;
+    padding-left: 75px;
+}
+
+.copyright
+{
+    clear: left;
+}

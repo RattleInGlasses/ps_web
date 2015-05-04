@@ -1,21 +1,4 @@
-<?php    
-    /*function GetView($template, $vars)
-    {
-        $content = '';
-        $template = TEMPLATE_DIR . $template;
-        if (file_exists($template))
-        {
-            $content = file_get_contents($template);
-            foreach ($vars as $key => $value)
-            {
-                $placeholder = '{$' . $key .'}';
-                $content = str_replace($placeholder, $value, $content);
-            }
-        }
-        
-        return $content;
-    }*/
-    
+<?php        
     function GetView($template, $vars)
     {
         $smarty = new Smarty();

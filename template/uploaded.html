@@ -1,0 +1,9 @@
+<div class="content">
+  <h3>Загруженные изображения</h3>
+  <ul>
+    {foreach from=$files
+             item=file}
+      <li><a href="{$file.path}">{$file.name}</a></li>
+    {/foreach}
+  </ul>
+</div>

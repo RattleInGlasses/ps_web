@@ -1,0 +1,29 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+body
+{
+    font: 0.92em/1.4 Arial,sans-serif;
+    height: 100%;
+}
+
+a
+{
+    color: #1D67A4;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.main
+{
+    background-color: #4B4A45;
+    position: relative;
+}

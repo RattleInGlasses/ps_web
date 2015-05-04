@@ -1,0 +1,113 @@
+.side_menu
+{
+    /*position: absolute;
+    left: 0;*/
+    float: left;
+    background-color: #4B4A45;
+    width: 210px;
+}
+
+.side_menu .block
+{
+    margin: 10px 0 15px;
+}
+
+.side_menu .block_content
+{
+    outline: medium none;
+    overflow: hidden;
+    padding: 0px;
+    width: 210px;
+}
+
+.side_menu .menu_html_tags
+{
+    height: 348px;
+    width: 184px;
+    padding: 0px 5px;
+}
+
+.filter
+{
+    background: none repeat scroll 0 0 #FFF;
+    border: 1px solid #666;
+    width: 200px;
+    margin-left: 5px;
+}
+
+.filter_text
+{
+    font-size: 14px;
+    width: 173px;
+    border: medium none;
+    outline: medium none;
+    padding: 2px;
+    float: left;
+}
+
+.filter_image
+{
+    margin: 3px 2px 2px 0;
+    opacity: 0.5;
+    float: left;
+}
+
+.side_menu .block_title
+{
+    background: none repeat scroll 0 0 #dad7c5;
+    color: rgba(75, 74, 69, 0.8);
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 -6px 10px 0;
+    padding: 5px 6px 4px 5px;
+    position: relative;
+    text-shadow: 1px 2px 3px #dad7c5, 0 0 0 #000, 1px 2px 3px #dad7c5;
+}
+
+.side_menu .menu
+{
+    font-size: 14px;
+    margin: 0;
+    padding: 0 0 0.25em 20px;
+}
+
+.side_menu .leaf
+{
+    background-image: url("/images/bullet.png");
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+    background-attachment: scroll;
+    list-style: outside none none;
+    margin-left: -10px;
+    padding: 0 0 0 15px;
+}
+
+.side_menu .collapsed
+{
+    background-image: url("/images/bullet2.png");
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+    background-attachment: scroll; 
+    list-style: outside none none;
+    margin-left: -10px;
+    padding: 0 5px 0 15px;
+}
+
+.side_menu a
+{
+    color: #eedfac;
+    display: block;
+    line-height: 1.2;
+    margin: 3px 0;
+    text-decoration: none;
+}
+
+.side_menu .menu_css
+{
+    overflow: hidden;
+    padding: 0px 5px;
+    height: 349px;
+    width: 184px;
+}
