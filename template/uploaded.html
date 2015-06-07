@@ -1,9 +1,28 @@
 <div class="content">
   <h3>Загруженные изображения</h3>
-  <ul>
+  <form action="uploaded.php" method="POST" enctype="multipart/form-data">
+    <p>
+      {html_options name=extension options=$extensions}
+      {html_options name=email options=$emails}
+    </p>
+    <input type="submit" value="Применить фильтр">
+  </form>
+  <table class="file_list_table">
+    <tr>
+      <th>Изображение</th>
+      <th>Пользователь</th>
+    </tr>
     {foreach from=$files
              item=file}
-      <li><a href="{$file.path}">{$file.name}</a></li>
+    <tr>
+      <td>
+        <a href="{$file.path}">
+          <p><img class="uploaded_image" src="{$file.path}" alt="{$file.name}" /></p>
+          {$file.name}
+        </a>
+      </td>
+      <td>{$file.email}</td>
+    </tr>
     {/foreach}
-  </ul>
+  </table>
 </div>

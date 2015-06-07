@@ -1,0 +1,9 @@
+<div class="content">
+  <h3>Список пользователей</h3>
+  {html_table loop=$usersList cols="Email, First Name, Last Name" table_attr="class='users_list_table'"}
+  <a {if $prevPageStart eq FALSE }class="no_link"{/if} href="usersList.php?start={$prevPageStart}">Назад</a>
+  <a {if $nextPageStart eq FALSE }class="no_link"{/if} href="usersList.php?start={$nextPageStart}">Вперёд</a>
+  <form action="addUser.php" method="GET" enctype="multipart/form-data">
+    <input type="submit" value="Добавить пользователя">
+  </form>
+</div>

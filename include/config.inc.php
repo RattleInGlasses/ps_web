@@ -6,3 +6,11 @@
     
     define ('UPLOADS_DIR', './uploads');
     define ('UPLOAD_PAGE', '/upload.php');
+    
+    define ('DB_HOST', 'localhost');
+    define ('DB_USER', 'root');
+    define ('DB_PASS', '');
+    define ('DB_NAME', 'web');
+    define ('DB_CONNECTION_CHARSET', 'utf8');
+
+	define ('USERS_LIST_ROWS_LIMIT', 7);

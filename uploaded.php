@@ -1,27 +1,17 @@
 <?php
     require_once('/include/common.inc.php');
+     
+    $filterEmail = PostParam('email', FALSE);
+    $filterExt   = PostParam('extension', FALSE);
+    $files = getUploadedFiles($filterExt, $filterEmail);
     
-    function getUploadedFiles()
-    {
-         $uploadedList = scandir(UPLOADS_DIR);
-         for ($i = 0; $i < count($uploadedList); $i++)
-         {
-             if (($uploadedList[$i] == '.') || ($uploadedList[$i] == '..'))
-             {
-                 array_splice($uploadedList, $i--, 1);
-             }
-         }
-         
-         $len = count($uploadedList);
-         $files = array();
-         for ($i = 0; $i < $len; $i++)
-         {
-             array_push($files, array());
-             $files[$i]['name'] = $uploadedList[$i];
-             $files[$i]['path'] = UPLOADS_DIR . "/$uploadedList[$i]";
-         }
-         return $files;
-    }
+    $emails     = getEmailsList();
+    $extensions = getExtensionsList();
     
-    $files = getUploadedFiles();
-    echo BuildPage('uploaded.html', array('files' => $files));
+    $pageVars = array
+    (
+        'files' => $files,
+        'extensions' => $extensions,
+        'emails' => $emails
+    );
+    echo BuildPage('uploaded.html', $pageVars);
