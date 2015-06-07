@@ -13,4 +13,4 @@
     define ('DB_NAME', 'web');
     define ('DB_CONNECTION_CHARSET', 'utf8');
 
-	define ('USERS_LIST_ROWS_LIMIT', 7);
+    define ('USERS_LIST_ROWS_LIMIT', 3);
